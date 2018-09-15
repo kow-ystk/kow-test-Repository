@@ -13,11 +13,6 @@
     <p id="msg">クリックするたびにhello worldを表示する</p>
     <button id="add">Click!</button>
     <script>
-        /* var e = document.getElementById('msg');
-        e.textContent = 'hello!';
-        e.style.color = 'red';
-        e.className = 'myStyle'; */
-
         document.getElementById('add').addEventListener('click', function(){
             var greet = document.createElement('p'),
                 text = document.createTextNode('hello world');
